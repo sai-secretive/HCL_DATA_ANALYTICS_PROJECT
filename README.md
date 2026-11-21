@@ -42,6 +42,64 @@ Tools and Technologies
 - Seaborn
 - Jupyter Notebook
 
+Suggested Project Structure
+
+BANK_ANALYTICS_PROJECT/
+│
+├── .venv/
+│
+├── data/
+│   ├── raw/
+│   │   └── bank_data.csv
+│   │
+│   └── processed/
+│       └── bank_data_clean.csv
+│
+├── images/
+│   ├── 01_overall_satisfaction.png
+│   ├── 02_balance_transactions.png
+│   ├── 03_correlation.png
+│   ├── 04_group_comparison.png
+│   └── 05_at_risk_customers.png
+│
+├── notebooks/
+│   └── draft.ipynb
+│
+├── script/
+│   └── presentation.pptx
+│
+├── README.md
+│
+└── requirements.txt
+
+Workflow
+
+Raw Data
+   │
+   ▼
+Data Cleaning & Preprocessing
+   │
+   ▼
+Cleaned Dataset
+   │
+   ▼
+Exploratory Data Analysis (EDA)
+   │
+   ▼
+Data Visualization
+   │
+   ▼
+Customer Segmentation & Analysis
+   │
+   ▼
+Insights & Findings
+   │
+   ▼
+Business Recommendations
+   │
+   ▼
+Final Presentation
+
 Project Workflow
 
 1. Data loading
